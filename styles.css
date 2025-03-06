@@ -1,58 +1,43 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+/* styles.css */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background: #111;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.avatar img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-section {
-    padding: 50px 20px;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-footer {
+    margin: 0;
+    padding: 0;
     text-align: center;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+section {
+    margin: 50px;
     padding: 20px;
-    background: #111;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+iframe {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.gambar {
+    width: 300px; /* Atur ukuran gambar */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
